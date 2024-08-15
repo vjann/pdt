@@ -1,6 +1,8 @@
 # Explanation
 Simple python CLI. Uses simple libraries like `os`, `heapq`, `sys`.
 
+I know there's a lot more needed to be productionized, such as a cleaner wrapper, input validation, `-h` help hints, more tests, etc
+
 File by file, reads line by line, pushing each line into a heap (if not empty).
 
 Once all collected, pops it back into a sorted list, and writes to file
